@@ -1,0 +1,46 @@
+INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO:app:Metrics request successful
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 11:08:12] "[37mGET /metrics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 11:08:39] "[37mGET /create HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 11:08:42] "[37mGET /about HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2021 11:08:56] "[37mGET /1 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2021 11:46:59] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2021 11:47:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+ERROR:app:Page could not be found
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2021 11:47:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:app:19-09-2021, 11:47:33, Article "2020 CNCF Annual Report" retrieved
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2021 11:47:33] "[37mGET /1 HTTP/1.1[0m" 200 -
+ERROR:app:19-09-2021, 13:13:59, A non-existing article is accessed and a 404 page is returned.
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2021 13:13:59] "[33mGET /8 HTTP/1.1[0m" 404 -
+INFO:app:19-09-2021, 13:14:19, The "About Us" page is retrieved.
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2021 13:14:19] "[37mGET /about HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2021 13:14:29] "[37mGET /create HTTP/1.1[0m" 200 -
+INFO:app:19-09-2021, 13:14:38, A new article "try" is created!
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2021 13:14:38] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2021 13:14:38] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:app:Metrics request successful
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2021 13:14:50] "[37mGET /metrics HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2021 13:31:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2021 13:31:27] "[37mGET /create HTTP/1.1[0m" 200 -
+INFO:app:19-09-2021, 13:31:41, A new article "New article" is created!
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2021 13:31:41] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2021 13:31:41] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:app:19-09-2021, 13:31:54, Article "KubeCon + CloudNativeCon 2021" retrieved
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2021 13:31:54] "[37mGET /2 HTTP/1.1[0m" 200 -
+INFO:app:Metrics request successful
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2021 13:32:08] "[37mGET /metrics HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO:app:Metrics request successful
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2021 14:40:58] "[37mGET /metrics HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO:app:Metrics request successful
+INFO:werkzeug:127.0.0.1 - - [26/Sep/2021 17:15:57] "[37mGET /metrics HTTP/1.1[0m" 200 -
+ERROR:app:Page could not be found
+INFO:werkzeug:127.0.0.1 - - [26/Sep/2021 17:15:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Sep/2021 17:16:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Sep/2021 17:16:05] "[37mGET /static/css/main.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Sep/2021 19:39:10] "[37mGET / HTTP/1.1[0m" 200 -
