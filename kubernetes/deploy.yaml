@@ -3,23 +3,23 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: syahril
-  name: syahril
-  namespace: demo
+    app: techtrends
+  name: techtrends
+  namespace: sandbox
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: syahril
+      app: techtrends
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: syahril
+        app: techtrends
     spec:
       containers:
-      - image: busybox
-        name: busybox
+      - image: syahril/techtrends
+        name: techtrends
         resources: {}
 status: {}
