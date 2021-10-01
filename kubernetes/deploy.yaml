@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: syahril
+  name: syahril
+  namespace: demo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: syahril
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: syahril
+    spec:
+      containers:
+      - image: busybox
+        name: busybox
+        resources: {}
+status: {}
