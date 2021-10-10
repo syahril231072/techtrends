@@ -1,7 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  creationTimestamp: null
   labels:
     app: techtrends
   name: techtrends
@@ -11,10 +10,8 @@ spec:
   selector:
     matchLabels:
       app: techtrends
-  strategy: {}
   template:
     metadata:
-      creationTimestamp: null
       labels:
         app: techtrends
     spec:
@@ -40,4 +37,3 @@ spec:
           limits:
             memory: "128Mi"
             cpu: "500m"
-        
